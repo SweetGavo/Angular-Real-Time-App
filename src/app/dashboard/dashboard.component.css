@@ -1,0 +1,21 @@
+#table{
+    width: 60rem;
+    justify-content: center;
+    margin-left: 28rem;
+}
+
+#loading{
+    justify-content: center;
+    margin-top: 10rem;
+    margin-left: 28rem;
+    font-size: large;
+
+}
+
+
+.container{
+    overflow:scroll;
+}
+.mar{
+    margin-bottom: 100rem;
+}

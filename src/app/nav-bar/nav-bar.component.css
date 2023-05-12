@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.container-fluid{
+ height: 6rem;
+ padding: 1rem;
+  justify-content: space-evenly;
+}
+.ml{
+    margin-left: 28rem;
+}
+a{
+    color: gray;
+}

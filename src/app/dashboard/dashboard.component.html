@@ -1,0 +1,22 @@
+<div class="container">
+  <table  *ngIf="!show;" class="table" id="table">
+    <thead>
+      <tr>
+        <th scope="col">AIRPORT</th>
+        <th scope="col">TIME</th>
+        <th scope="col">ARRIVING</th>
+        <th scope="col">DEPARTING</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr *ngFor="let flight of flightdata">
+        <th>{{ flight.callsign }}</th>
+        <td>{{flight.lastSeen | date : 'MM/dd/yyyy @ h:mma'}}</td>
+        <td>{{ flight.estArrivalAirport }}</td>
+        <td>{{ flight.estDepartureAirport }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+      <h1 id="loading" *ngIf="show" class="mar text-uppercase  ">PLEASE WAIT! MAY TAKE FEW SECONDS TO LOad</h1>
+</div>

@@ -1,0 +1,16 @@
+<div class="body">
+  <form class="form-group row" [formGroup]="myForm" >
+    <header class=""><h1>Login Details</h1></header>
+   <span>Don't have an account ? </span> <a href="/signup">Sign Up</a>
+    <input type="text" formControlName="name" placeholder="Name" class="form-control m-4" />
+    <input type="password" formControlName="password" placeholder="Password" class="form-control m-4" />
+    <p>Password must be at least 8 characters long</p>
+    <button class="btn btn-outline-secondary text-uppercase  "(click)="onSubmit()"> <a href="/signup"></a> Submit </button>
+</form>
+  <a type="button" class="light-blue-text mx-2"></a>
+  <a type="button" class="light-blue-text mx-2"></a>
+  <a type="button" class="light-blue-text mx-2"></a>
+  <a type="button" class="light-blue-text mx-2"> </a>
+</div>
+
+
